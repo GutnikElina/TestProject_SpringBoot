@@ -1,0 +1,3 @@
+INSERT INTO `users` (`username`, `password`, `role`, `first_name`, `last_name`, `email`, `birthday`) VALUES
+     ('admin', '$2a$10$R4o9QwMEPW9.YpctiGUsROhxmWd8U8/q5QlV/GE.erbKaXZgJ8sjm', 'ROLE_ADMIN', 'Elina', 'Gutnik', 'admin@example.com', '2005-03-20'),
+     ('user123', '$2a$10$QAmv0FYxfZkEBWVgWjlbjuEZRXAMMJcFQprqOmq0mpqT5fMNT4wPa', 'ROLE_USER', 'John', 'Doe', 'user123@example.com', '1990-10-25')
